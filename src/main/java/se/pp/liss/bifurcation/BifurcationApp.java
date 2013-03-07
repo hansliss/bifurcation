@@ -36,6 +36,7 @@ public class BifurcationApp extends Frame  implements WindowListener, ComponentL
 		setSize(_ui.getWidth(), _ui.getHeight());
 		setVisible(true);   
 		setLocationRelativeTo(null);
+		setTitle("Bifurcation demo");
 		_ui.start();
 
 	}
