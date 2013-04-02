@@ -49,7 +49,7 @@ public class BifurcationApp extends Frame  implements WindowListener, ComponentL
 		int c;
 		width = 640;
 		height = 640;
-		Getopt go = new Getopt("bifurcation", args, "c:");
+		Getopt go = new Getopt("bifurcation", args, "c:w:h:");
 		while ((c = go.getopt()) != -1) {
 			switch (c) {
 			case 'c':
