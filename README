@@ -1,0 +1,7 @@
+A simple app showing a Bifurcation diagram for the Logistic Map by Robert May.
+
+To build: maven clean package
+To run, unpack the deployment archive from the "target" directory, move to the new subdirectory and just "run the jar":
+java -jar bifurcation-1.2-SNAPSHOT.jar
+
+You can add width ("-w") and height ("-h") parameters to the command line.
