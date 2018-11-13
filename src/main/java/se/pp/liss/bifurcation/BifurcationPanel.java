@@ -188,7 +188,7 @@ public class BifurcationPanel extends Panel implements Runnable,MouseListener,Mo
 				ofsG.drawLine(i % width, (int)(i / width), i % width, (int)(i / width));
 			}
 			else {
-				int v=120-(((120*tmpBuffer[i])/(MAXITER-MINITER)));
+			    int v=120-(((120*(tmpBuffer[i] / MAXITER - MINITER / MAXITER))));
 				ofsG.setColor(new Color(v, v, v));
 				ofsG.drawLine(i % width, (int)(i / width), i % width, (int)(i / width));
 			}
